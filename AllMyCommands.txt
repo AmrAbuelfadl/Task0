@@ -1,0 +1,18 @@
+a) git init
+b)git add sec1.txt
+git add sec3.txt
+git add sec5.txt
+c)git rm --cached sec3.txt
+d)git checkout -- sec3.txt
+e)git commit -m "Adding three text files "
+f)git remote add origin https://github.com/AmrAbuelfadl/Task0.git
+git push -u origin master
+h)git branch ReadMe
+git checkout ReadMe
+i)git add README.md
+j)git commit -m "Adding README.md file to ReadMe branch"
+k)git checkout master
+git merge ReadMe
+l)git add AllMyCommands.txt
+git commit -m “Added all my commands”
+git push
